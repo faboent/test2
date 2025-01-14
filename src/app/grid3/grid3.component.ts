@@ -1,12 +1,12 @@
 import { Component, CUSTOM_ELEMENTS_SCHEMA, ViewChild } from '@angular/core';
 import { IgxGridModule, IgxGridComponent, IgxStringFilteringOperand } from 'igniteui-angular';
 import { CommonModule } from '@angular/common';
-import { RouterLink } from '@angular/router';
+
 
 @Component({
   selector: 'app-grid3',
   standalone: true,
-  imports: [IgxGridModule, CommonModule, RouterLink],
+  imports: [IgxGridModule, CommonModule],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
   template: `
     <h4>Filtering Grids</h4>

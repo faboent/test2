@@ -1,12 +1,12 @@
 import { Component, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core'; // Import CUSTOM_ELEMENTS_SCHEMA
 import { IgxGridModule } from 'igniteui-angular'; // Import the IgxGridModule
 import { CommonModule } from '@angular/common';
-import { RouterLink } from '@angular/router'; // Import RouterLink for routing
+
 
 @Component({
   selector: 'app-grid2',
   standalone: true,
-  imports: [IgxGridModule, CommonModule, RouterLink], // Add IgxGridModule to imports
+  imports: [IgxGridModule, CommonModule], // Add IgxGridModule to imports
   schemas: [CUSTOM_ELEMENTS_SCHEMA], // Add CUSTOM_ELEMENTS_SCHEMA here
   template: `
     <h4>Sorting Grid</h4>
